@@ -57,11 +57,50 @@
       margin-bottom: 12px;
     }
 
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0 24px;
+    }
+
+    .menu-button {
+      width: 44px;
+      height: 44px;
+      border: 1px solid #ddd;
+      border-radius: 14px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    .menu-button span {
+      display: block;
+      width: 16px;
+      height: 2px;
+      background: #333;
+      border-radius: 999px;
+      box-shadow: 0 6px 0 #333, 0 -6px 0 #333;
+    }
+
+    .nav-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
   </style>
 </head>
 <body>
 
   <div class="phone">
+    <div class="navbar">
+      <button class="menu-button" aria-label="Open menu"><span></span></button>
+      <div class="nav-title">Hello</div>
+      <div style="width: 44px"></div>
+    </div>
     <img class="photo" src="https://images.unsplash.com/photo-1776035352221-c64511ea32c7?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Top photo">
     <h1 class="screen-title">Hello world👋</h1>
     <p class="screen-subtitle">My first screen-nnmkljkljkl -hjkhkhjklj</p>
